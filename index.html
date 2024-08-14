@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Dancing+Script:wght@700&family=Lobster&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Fredoka', sans-serif;
@@ -29,6 +29,12 @@
 
         a {
             text-decoration: none;
+            color: #fff; /* Mude a cor dos links do menu para branco */
+            font-family: 'Lobster', cursive; /* Fonte personalizada para os links do menu */
+        }
+
+        a:active, a:focus {
+            color: #7E57C2; /* Cor roxa ao clicar */
         }
 
         header,
@@ -88,6 +94,14 @@
                 margin-left: 20px;
             }
         }
+
+        .intro-section h1 {
+            font-family: 'Dancing Script', cursive; /* Fonte personalizada para o nome "Gabrielly Trindade" */
+        }
+
+        footer p {
+            color: #fff; /* Mude a cor da palavra "never" para branco */
+        }
     </style>
 </head>
 
@@ -96,7 +110,7 @@
         <div class="flex items-center">
             <img src="./Untitled design.png" alt="Canva Logo" class="h-10">
         </div>
-        <nav class="hidden md:flex space-x-8 text-black font-medium">
+        <nav class="hidden md:flex space-x-8 text-white font-medium">
             <a href="#inicio">Inicio</a>
             <a href="https://gabystella3.github.io/Projetosg/" target="_blank">Projetos</a>
             <a href="https://gabystella3.github.io/Filmes/" target="_blank">Lista Favorita</a>
@@ -110,7 +124,7 @@
         </button>
     </header>
 
-    <nav class="mobile-menu bg-purple-200 p-6 rounded-lg text-black font-medium" id="mobile-menu">
+    <nav class="mobile-menu bg-purple-200 p-6 rounded-lg text-white font-medium" id="mobile-menu">
         <a href="#inicio" class="block mb-4">Inicio</a>
         <a href="https://gabystella3.github.io/Projetosg/" target="_blank" class="block mb-4">Projetos</a>
         <a href="https://gabystella3.github.io/Filmes/" target="_blank" class="block mb-4">Lista Favorita</a>
@@ -126,7 +140,7 @@
             </p>
         </div>
         <!-- Imagem sem fundo ao lado do nome -->
-        <img src=".//c62ea0f5-968d-4784-b5d9-6f248536e4f6-Photoroom.png" alt="Imagem Sem Fundo" class="md:w-1/2 max-w-xs">
+        <img src="./c62ea0f5-968d-4784-b5d9-6f248536e4f6-Photoroom.png" alt="Imagem Sem Fundo" class="md:w-1/2 max-w-xs">
     </main>
 
     <!-- Seção Sobre Mim no final da página -->
